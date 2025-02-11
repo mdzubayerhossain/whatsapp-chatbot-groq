@@ -1,20 +1,6 @@
-
-
-<p align="center"> <a href="http://nestjs.com/" target="blank"><img src="https://github.com/user-attachments/assets/39665bff-a4b3-46ea-9752-2e85b36b7bab" height="300"  alt="Nest Logo" /></a> </p> <p align="center"> A production-ready <a href="http://nodejs.org" target="_blank">Node.js</a> WhatsApp chatbot built with <a href="https://nestjs.com/" target="_blank">NestJS</a>, leveraging the <a href="https://developers.facebook.com/docs/whatsapp/cloud-api" target="_blank">WhatsApp Cloud API</a> for direct integration with WhatsApp, GPT-4o for conversational intelligence and Redis (free tier from Upstash) for context management. </p>
-
-
-## Step-by-Step Guide
-For a detailed, step-by-step guide on building this chatbot, check out:
-
-### NestJS WhatsApp Chatbot with GPT-4o
-[<img width="960" alt="WhatsApp AI Chatbot" src="https://github.com/user-attachments/assets/ed05d93e-613a-41db-8514-b12d722fe246">](https://www.youtube.com/watch?v=Nn9JJ8IdxM8&list=PLX8Kj-tc4dHallx-LJ-5uu894S7f52xIC&index=1)
-
-### Text-To-Image generation with Stable Diffusion model
-[<img width="960" alt="WhatsApp AI Chatbot" src="https://github.com/user-attachments/assets/7c164df6-40df-4f15-84a3-32e04f196412">](https://www.youtube.com/watch?v=gxmlZgVjnv8&list=PLX8Kj-tc4dHallx-LJ-5uu894S7f52xIC&index=4)
-
 **Key Features:**
 
-* **GPT-4o Integration:** Utilises the advanced capabilities of GPT-4o for natural language understanding and generation, ensuring engaging and intelligent conversations.
+* **Groq Integration:** Utilises the advanced capabilities of Groq for natural language understanding and generation, ensuring engaging and intelligent conversations.
 * **Text-To-Image Generation:** Utilises Stability AI's `Stable Diffusion` model for text-to-image generation.
 * **Redis for Context:** Stores conversation context in Redis, enabling the chatbot to maintain a cohesive dialogue and provide context-aware responses.
 * **NestJS Framework:** Built on the robust and scalable NestJS framework, providing a well-structured and maintainable codebase.
@@ -54,12 +40,6 @@ For a detailed, step-by-step guide on building this chatbot, check out:
       ```
       This command starts the chatbot in production mode, optimized for performance and stability.
 
-## Connecting Your Backend To WhatsApp:
-
-- **No third-party providers needed!** You can directly integrate with the WhatsApp Cloud API by following these steps:
-   1. Create a Facebook Developer account at [https://developers.facebook.com/](https://developers.facebook.com/).
-   2. Create a WhatsApp Business account and integrate it with your Facebook Developer account.
-   3. Follow the official WhatsApp Cloud API documentation to configure your chatbot. (details to be saved to your environment file)
 
 
 **Testing (Contributions are welcome - running by grace, no tests):**
@@ -90,12 +70,5 @@ This chatbot is made possible by the incredible work of the following projects:
 * [Upstash Redis](https://upstash.com/)
 * [ioredis](https://github.com/luin/ioredis)
 * [openai](https://github.com/openai/openai-node)
-
-**Join the Conversation:**
-
-More features to be added to the chatbot, stay in the loop:
-
-* [My Youtube Channel](https://www.youtube.com/channel/UChZk6jLmTKn2BINb9o51otQ)
-* [Say Hi On LinkedIn](https://www.linkedin.com/in/tafadzwa-demba/)
 
 **Let's build a smarter and more engaging WhatsApp experience!** 
